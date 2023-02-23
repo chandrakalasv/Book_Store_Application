@@ -1,0 +1,70 @@
+.LoginConainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    width: 100%;
+
+}
+
+
+
+#LoginCard{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    margin-left: 400px;
+    margin-top: 50px;
+   border-color: gray;
+   border-width: 10px;
+   box-shadow: inset;
+   justify-content: center;
+   text-align: center;
+   font-size: 25px;
+
+}
+
+.email{
+    width: 75%;
+    height: 200%;
+}
+
+.password{
+    width: 75%;
+    height: 200%;
+    
+}
+
+.submit{
+    width: 100%;
+   
+}
+.signup{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    padding-left: 350px;
+    padding-top: 20px;
+    
+}
+
+#forgetPassword{
+    display: flex;
+    align-items: left;
+    font-size: 20px;
+
+}
+
+#createAccount{
+    font-size: 20px;
+}

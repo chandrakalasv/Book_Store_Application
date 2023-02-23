@@ -1,0 +1,85 @@
+.signUpConainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    width: 100%;
+
+}
+
+
+
+#signUpCard{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 750px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    margin-left: 400px;
+    margin-top: 10px;
+   border-color: gray;
+   border-width: 10px;
+   box-shadow: inset;
+   justify-content: center;
+   text-align: center;
+   font-size: 25px;
+
+}
+
+.name{
+    width: 75%;
+    height: 500%;
+    margin: auto;
+    padding: 10px;
+}
+
+.phoneNumber{
+    width: 75%;
+    height: 500%;
+    margin: auto;
+    padding: 10px;
+}
+
+.email{
+    width: 75%;
+    height: 500%;
+    margin: auto;
+    padding: 10px;
+}
+
+.password{
+    width: 75%;
+    height: 500%;
+    padding: 10px;
+    
+}
+.address{
+    width: 75%;
+    height: 500%;
+    margin: auto;
+    padding: 10px;
+}
+.landmark{
+    width: 75%;
+    height: 500%;
+    margin: auto;
+    padding: 10px;
+}
+.city{
+    width: 75%;
+    height: 500%;
+    margin: auto;
+    padding: 10px;
+}
+.pincode{
+    width: 75%;
+    height: 500%;
+    margin: auto;
+    padding: 10px;
+}
+
+

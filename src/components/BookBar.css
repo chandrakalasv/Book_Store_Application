@@ -1,0 +1,107 @@
+.board{
+    /* display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 750px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+   border-color: gray; */
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: black;
+    justify-content: space-between;
+    width: 1500px;
+   height: 900px;
+   margin: 150px;
+   margin-top: 30px;
+   
+   position: absolute;
+   border-style: solid;
+   border-width: 1px;
+   border-color: gainsboro;
+   
+
+}
+.dashBoard{
+    display:flex;
+    width: 100%;
+border-color: black;
+}
+
+
+
+.appBar{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+/* height: 50x;
+    border-width: 80px; */
+}
+#bookimage{
+    display: flex;
+    justify-items: flex-start;
+    height: 50px;
+}
+
+#logo-search{
+    padding-left: 100px;
+}
+
+#logo{
+    display: flex;
+    position: absolute;
+    color: grey;
+    height:38px;
+    padding-left: 10px;
+}
+
+#search{
+    display : flex;
+    padding-left: 30px;
+    height: 30px;
+    width: 500px;
+    font-size: 15px;
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding-left: 255px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cartsymbol{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* #cardCount{
+    position:absolute;
+    background-color: aliceblue;
+    font-size: medium;
+} */
+.circle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  color: brown;
+  
+}

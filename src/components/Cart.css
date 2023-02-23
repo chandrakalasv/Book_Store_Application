@@ -1,0 +1,247 @@
+.board{
+    /* display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 750px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+   border-color: gray; */
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: black;
+    justify-content: space-between;
+    width: 1500px;
+   height: 900px;
+   margin: 150px;
+   margin-top: 30px;
+   
+   position: absolute;
+   border-style: solid;
+   border-width: 1px;
+   border-color: gainsboro;
+   
+
+}
+.cartitems{
+  display: flex;
+    flex-direction: row;
+    margin-bottom: 550px;
+}
+
+.mycart{
+    display: flex;
+    flex-direction: row;
+    /* align-content: space-between; */
+    /* justify-content: space-between; */
+    font-size: 19px;
+    /* padding-bottom: 280px; */
+    align-items: start;
+    justify-content: right;
+    width: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+p{
+    padding-right: 5px;
+}
+
+.cartcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 600px;
+    margin-top: 30px;
+    position: absolute;
+}
+.Details{
+  display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.BookName{
+    font-size: 17px;
+    margin-left: 60px;
+    margin-top: 0px;
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+    width: 150px;
+}
+/* .bookName{
+    margin: 9px 0px 1px 5px;
+    padding: 20px;
+    margin-left: 10px;
+    font-style: normal;
+    text-transform: capitalize;
+    text-transform: uppercase;
+  } */
+  .Authorname{
+    margin-left: 60px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: darkgray;
+    margin-top: 1px;
+  }
+  .bookDescription{
+    margin: 2px 0px 1px 5px;
+    padding: 2px;
+    margin-left: 5px;
+  }
+  .Price{
+    margin-left: 60px;
+    
+    
+  }
+  .Quantity{
+    margin: 2px 0px 1px 5px;
+    padding: 2px;
+    margin-left: 5px;
+  }
+
+  .image{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+    background-color: lightgray;
+  }
+  .image{
+    height: 120px;
+    width: 100px;
+    background-color: grey;
+  }
+  .bookText{
+    font-size: 20px;
+  }
+  .Book{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 170px;
+    margin-top: 20px;
+    background-color: white;
+}
+  .cartcard{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    height: 450px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    padding-bottom: px;
+    padding-top: 100px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 1px;
+    border-style: solid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 220px;
+    padding-left: 100px;
+    
+  }
+  .cartdetails{
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: right;
+    height: 500px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    
+}
+/* .image{
+    width: 200px;
+    height: 150px;
+    background-color: darkgrey;
+} */
+.carticons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  justify-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  padding-left: 160px;
+}
+
+.plus{
+  padding-left: 10px;
+  padding-top: 3px;
+  fill: darkgrey;
+}
+.minus{
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.bookcounternumber{
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 25px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 1px;
+  border-style: solid;
+}
+.remove{
+  padding-left: 30px;
+  /* padding-bottom: 40px; */
+  /* padding: 10px; */
+  margin-top: 0px;
+  padding-top: 3px;
+  color: black;
+  text-transform: capitalize;
+}
+
+.orderdiv{
+  background-color: cornflowerblue;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-top: 350px;
+  width: 180px;
+  font-size: inherit;
+}
+
+.customerDetails{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  width: 950px;
+  height: 70px;
+  margin-left: 220px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+.customer{
+  padding-left: 25px;
+    font-size: 17px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    /* padding-bottom: 20px; */
+    flex-direction: row;
+    align-items: center;
+  
+}
